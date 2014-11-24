@@ -1,88 +1,222 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		<title>Exercice HTML</title>
 
-		<title> Exercice Avion </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<meta charset="utf-8" />
-
-		<link href="Stylesheets/style.css" rel="stylesheet" type="text/css" />
-
+		<link rel="stylesheet" type="text/css" href="stylesheets/global.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/mediaqueries.css" />
+		<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
 	</head>
+	<body>
+		<div id="wrapper"> 
+			<header class="resp-section clearfix">
+				<div class="resp-grid">
 
+						<!-- LOGO -->
 
-		<body>
-			<div id="wrapper">
-				<div id="header">
-					<div id="logo">
-						<img src="images/logo.png"/>
-						<!--  le logo -->
+					<div id="logo" class="mob-12 tab-3 pc-3">
+						<a href="index.html"><img src="img/logo.jpg" alt="Logo norway" /></a>
 					</div>
-					<div id="nav">
 
+
+						<!-- BARRE DE NAVIGATION-->
+
+					<nav class="mob-12 tab-8 pc-8">
 						<ul>
-							<li> <a href="#" title="HOME"> HOME </br> <span>  back to home</span> </a> </li>
-
-							<li> <a href="#" title="ABOUT US"> ABOUT US </br> <span> Lear more avout us</span> </a> </li>
-
-							<li> <a href="#" title="REFERENCES"> REFERENCES </br> <span> Check out works</span> </a> </li>	
-
-							<li> <a href="#" title="NEWS"> NEWS </br> <span> Our latest news</span> </a> </li>
-
-							<li> <a href="#" title="CONTACT US"> CONTACT US </br> <span> School Contacts</span> </a> </li>							
-
+							<li><a href="#" title="title1">HOME<br/><span>home page</span></a></li>
+							<li><a href="#" title="title2">ABOUT OUR COUNTRY<br/><span>All about Norway</span></a></li>
+							<li><a href="#" title="title3">INFO<br/><span>Drakkar & shit</span></a></li>
+							<li><a href="#" title="title4">GALLERY<br/><span>Lands & shit</span></a></li>
+							<li><a href="#" title="title5">NEWS<br/><span>Nothing about Vikings</span></a></li>
+							<li><a href="#" title="title6">CONTACT<br/><span>Who are we ?</span></a></li>
 						</ul>
+					</nav>
+				</div>
+			</header>
 
-						
+			<div id="content" class="resp-section clearfix">
+				<div class="resp-grid">
 
-					</div>	<!--  FIN BARRE NAV -->
+						<!-- Slider  -->
+				<div id="slider" class="mob-12 tab-12 pc-12">
+					<img src="img/norf.jpg" alt="le slider" />
+				</div>
 
-				</div>   <!--  FIN HEADER -->
 
 
+					<!-- LES 3 COLONNES -->	
 
-				<div id="content">
-					<div id="slider"> <!--  LE SLIDER -->	
-										<img src="images/avion.jpg" width = "1520"/>
-					</div>
-
-					<div id="container"> <!-- LES 3 COLONNES-->
-									<div class="colone">
-										<div id="col1">
-											<div class="contentcol"><p> yo </p></div>
-										</div>
-									</div>
-									<div class="colone">
-
-										<div id="col2">
-											<div class="contentcol"><p> yo </p></div>
-										</div>
-									</div>	
-									<div class="colone">
-
-										<div id="col3">
-											<div class="contentcol"><p> yo </p></div>
-										</div>
-									</div>
+				<div id="container">
+					<div class="pc-4 mob-12 tab-12" id="col1">
+						<div class="attribute-header">
+							<h2>NORWAY & NORWAY & NORWAY !!</h2>
 						</div>
-
+						<div class='block'>
+							<h3> Luctus NISI. </h3>
+							<div class="attribute-time">
+								<span class='date'>Nov 24, 2014</span>
+								<span class="hour">9:00 - 17:00</span>
+							</div>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>
+						</div>
+						<div class='block'>
+							<h3> Quisque vestibulum facilisis turpis </h3>
+							<div class="attribute-time">
+								<span class='date'>Nov 24, 2014</span>
+								<span class="hour">9:00 - 17:00</span>
+							</div>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>
+						
+						</div>
+						<div class='block'>
+							<h3> Fusce a risus fringilla, sagittis diam eleifend, luctus nisi. </h3>
+							<div class="attribute-time">
+								<span class='date'>Nov 24, 2014</span>
+								<span class="date">Nov 24, 2014</span>
+							</div>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>
+						
+						</div>
 					</div>
-			   <!-- FIN CONTENT-->
-
-
-				<div id"footer">
-					<div id="footer-top">
+					
+					<div class='pc-4 mob-12 tab-12' id="col2">
+						<div class="attribute-header">
+							<h2>News</h2>
+						</div>
+						<div class='block'>
+							<h3> Lorem ipsum </h3>
+							<span class="date">Nov 24, 2014</span>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>						
+						</div>
+						<div class='block'>
+							<h3> Lorem ipsum </h3>
+							<span class="date">Nov 24, 2014</span>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>
+						
+						</div>
+						<div class='block'>
+							<h3> Lorem ipsum </h3>
+							<span class="date">Nov 24, 2014</span>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>
+						</div>
 					</div>
-					<div id="footer-bootom">
+					
+					<div class='pc-4 mob-12 tab-12' id="col3">
+						<div class="attribute-header">
+							<h2>Upcoming news</h2>
+						</div>
+						<div class='button'>
+							<img src="img/russe.png" alt="icone 1" />
+							<h3> RUSSEFEIRING </h3>
+							<span>Party & shit</span>
+						
+						</div>
+						<div class='button'>
+							<img src="img/beer.png" alt="icone 1" />
+							<h3> EAT & Drink  </h3>
+							<span>Elg & Ol</span>
+						
+						</div>
+						<div class='button'>
+							<img src="img/movie.png" alt="icone 1" />
+							<h3> MOVIES </h3>
+							<span>Fatso</span>
+						
+						</div>
+						<div class='twitter'>
+							<img src="img/social2.png" alt="phrase social-network" />
+							<span>Norge er stor<a href="https://twitter.com/TMB_Barcelona"> @TMB_Norway </a> 'Lofoten'</span>
+						</div>
+						<iframe width="100%" height="auto" src="//www.youtube.com/embed/mzPxo7Y6JyA" frameborder="0" allowfullscreen></iframe>
 					</div>
-				</div>     <!-- FIN FOOTER -->
+				</div></div>
+			</div>
 
 
-			</div>     <!-- FIN WRAPPER -->
+						<!-- FOOTER -->			
+			<footer class="resp-section clearfix">
+				<div class="resp-grid">
+					<div id="footer-top" class="mob-12 tab-12 pc-12 clear">
+						
+						<div class='pc-4 mob-12 tab-12'>
+							<h2> Many Links </h2>
+							<ul>
+								<li><a href="#">ABOUT OUR COUNTRY</a></li> <br/>
+								<li><a href="#">INFO</a></li> <br/>
+								<li><a href="#">GALLERY</a></li> <br/>
+								<li><a href="#">NEWS</a></li> <br/>
+								<li><a href="#">CONTACT</a></li> <br/>
+						</div>
+						<div class='pc-4 mob-12 tab-12' id="col5">
+							<h2> Contact </h2>
+							<div class="attribute-adress">
+								<h3> My Norway </h3>
+								<span>L. Norskson
+									3 Gate 
+									
+								</span> <br/>
+								<span>69 0244, Oslo, Norge.</span> <br/>
+								<span style="font-weight:bold;color:#000;">TEL: +47 (0)198989898</span>
+							</div>
+							<div class="attribute-contact">
+								<ul>
+									<li><a href="#"><img src="img/mail.png" alt="icone email" /></a></li>
+									<li><a href="https://www.facebook.com/bcn.cat"><img src="img/facebook.png" alt="icone facebook" /></a></li>
+									<li><a href="https://twitter.com/barcelona_cat"><img src="img/twitter.png" alt="icone twitter" /></a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class='pc-4 mob-12 tab-12'>
+							<h2> Picture stream </h2>
+							<ul>
+								<img src="img/nor1.jpg" alt="img 1" />
+								<img src="img/nor2.jpg" alt="img 2" />
+								<img src="img/nor3.jpg" alt="img 3" />
+								<img src="img/nor4.jpg" alt="img 4" />
+							</ul>
+							<ul>
+								<img src="img/nor5.jpg" alt="img 5" />
+								<img src="img/nor6.jpg" alt="img 6" />
+								<img src="img/nor7.jpg" alt="img 7" />
+								<img src="img/nor8.jpg" alt="img 8" />
+							</ul>
+						</div>
+					</div>
 
-
-
-
-
-		</body>		
-
+						<!-- BARRE NOIRE -->					
+					<div id="footer-bottom" class="pc-12 mob-12-tab-12">						
+						<p>2014 all Lucas Grossot fucking right reserved</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>
